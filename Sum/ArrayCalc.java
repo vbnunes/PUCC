@@ -1,6 +1,3 @@
-/**
- * Created by vnunes on 14/09/2017.
- */
 public class ArrayCalc extends Thread{
     private int[] array;
     private int total;
