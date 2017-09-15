@@ -4,15 +4,11 @@ import java.util.List;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-/**
- * Created by vnunes on 14/09/2017.
- */
 public class Main {
     private static final int TOTAL_CORES = 2;
     private static final int ARRAY_SIZE = 10;
     public static Integer total=0;
     //private final int CORES = Runtime.getRuntime().availableProcessors();
-    private static ArrayList<Thread> listThreads = new ArrayList();
 
     public static void splitArray(int[] arr) {
         int x = 0;
