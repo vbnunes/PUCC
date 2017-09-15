@@ -1,5 +1,5 @@
 # PUCC
 
-  • Repositorie earmarked to sabe University stuffs
+  • Repositorie earmarked to University stuffs
   
-  1) File Sum,  is an exemple of using Thread to calculate a sum of an array;
+  1) File Sum -> is an example of using Thread to calculate a sum of an array;
