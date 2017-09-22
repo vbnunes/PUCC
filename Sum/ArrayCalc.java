@@ -10,7 +10,9 @@ public class ArrayCalc extends Thread{
         for(int i=0;i<array.length;i++){
             total += array[i];
         }
-        Main.total += total;
+        synchronized(Main.total){
+            Main.total += total;
+        }
     }
 
     public void run(){
